@@ -1,0 +1,15 @@
+{
+  "files.autoGuessEncoding": false,
+  "window.zoomLevel": 1,
+  "workbench.panel.location": "right",
+  "files.encoding": "shiftjis",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.semi": true,
+  "prettier.useTabs": true
+}
