@@ -1,0 +1,57 @@
+{
+	"name": "asp",
+	"displayName": "asp (classic)",
+	"description": "This extension provides language support for Classic ASP.",
+	"version": "0.0.1",
+	"publisher": "tron",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tronsoft/asp-html.git"
+	},
+	"galleryBanner": {
+		"color": "#0F6378",
+		"theme": "dark"
+	},
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "asp",
+				"aliases": [
+					"ASP",
+					"asp"
+				],
+				"extensions": [
+					".asp",
+					".asa",
+					".inc"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "asp",
+				"scopeName": "source.asp",
+				"path": "./syntaxes/asp.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "asp",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c3f44b38-af99-4f88-979c-84e9308f58e6",
+		"publisherId": "aa9c6878-f5b1-4d70-9638-92519da7850e",
+		"publisherDisplayName": "tron"
+	}
+}

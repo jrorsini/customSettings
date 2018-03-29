@@ -1,0 +1,68 @@
+{
+	"name": "classic-asp-html",
+	"scopeName": "text.html.asp",
+	"displayName": "Classic ASP Syntaxes and Snippets",
+	"icon": "images/classic_asp.png",
+	"description": "Classic ASP Language Support and Snippets from tmBundle",
+	"version": "0.1.0",
+	"publisher": "jtjoo",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jtjoo/vscode-classic-asp-extension"
+	},
+	"bugs": "https://github.com/jtjoo/vscode-classic-asp-extension/issues",
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "asp",
+				"aliases": [
+					"ASP",
+					"asp"
+				],
+				"extensions": [
+					".asa",
+					".asp"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "asp",
+				"scopeName": "text.html.asp",
+				"path": "./syntaxes/asp.html.tmLanguage.json",
+				"embeddedLanguages": {
+					"text.html.asp": "asp",
+					"text.html": "html",
+					"source.sql": "sql",
+					"text.xml": "xml",
+					"source.js": "javascript",
+					"source.vbs": "vbscript",
+					"source.json": "json",
+					"source.css": "css"
+				}
+			}
+		],
+		"snippets": [
+			{
+				"language": "asp",
+				"scopeName": "text.html.asp",
+				"path": "./snippets/asp.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"vscode": "^0.11.0"
+	},
+	"__metadata": {
+		"id": "215201e0-4985-4e10-bd9a-2b23adb94c3e",
+		"publisherId": "cceb2644-b72d-4db7-a314-33f67863b7be",
+		"publisherDisplayName": "Jintae Joo"
+	}
+}
