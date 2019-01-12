@@ -118,5 +118,6 @@ source "$HOMEBREW_FOLDER/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source "$HOMEBREW_FOLDER/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 alias ls="colorls -lA --sd --gs"
+alias echo="lolcat | echo"
 
 . ~/z/z.sh
